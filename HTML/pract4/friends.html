@@ -3,11 +3,11 @@
 
 <head>
 
-    <title> Friends </title>
     <meta charset="UTF-8">
+    <title> Novadays </title>
     <style>
-        .title-friends {
-            font-size: 22px;
+        .title-gallery {
+            font-size: 20px;
             text-align: center;
         }
 
@@ -15,91 +15,44 @@
             font-style: italic;
         }
 
-        .title-table {
+        .picture-title {
             text-align: center;
         }
 
-        .table-first {
+        .picture-title-after {
             text-align: center;
-            font-weight: bold;
-            background-color: darkgreen;
+            font-size: 70%;
         }
 
-        .table-number {
-            text-align: right;
+        .title-folder {
+            font-size: 130%;
+            text-align: center;
         }
 
-        .table {
-            background-color: darkgreen;
-            color: orange;
+        .title-online {
+            text-align: center;
+            font-size: 160%;
         }
-        table{
-            width: 700px;
-            margin: 10px;
-            border: 1px solid grey;
-        }
-        th{
-            border: solid 1px grey;
-            background-color: mediumvioletred;
-        }
-        td{
-            border: 1px solid grey;
-            padding-left: 20px;
+
+        .picture {
+            display: block;
+            margin-left: auto;
+            margin-right: auto
         }
     </style>
 </head>
 
 <body>
-<h1 class="title-friends"> Друзі Павлюка Віталія Юрійовича</h1>
+<h1 class="title-gallery">Галерея Павлюка Віталія Юрійовича</h1>
 <p><a href="index.html" class="back-main">Назад на головну</a></p>
-<h2>Друзі</h2>
-<table class="table">
 
-    <caption class="title-table"> Мої Друзі </caption>
+<h2 class="picture-title"> Мої зображення</h2>
+<h3 class="picture-title-after"> Мої зображення у цій папці </h3>
 
-    <thead>
-    <tr>
-        <th class="table-first">Прізвище</th>
-        <th class="table-first">Ім'я</th>
-        <th class="table-first">Дата Народження</th>
-        <th class="table-first">Адреса</th>
-        <th class="table-first">Контактний номер</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    <tr>
-        <td>Гордон</td>
-        <td>Дмитро</td>
-        <td>21 жовтня 1967</td>
-        <td>Брайтон Біч в місті Нью-йорк</td>
-        <td class="table-number">0 888 888 888</td>
-    </tr>
-    <tr>
-        <td>Ілон</td>
-        <td>Маск</td>
-        <td>28 червня 1971</td>
-        <td>Вулиця миколайчука в місті Івано-Франківськ</td>
-        <td class="table-number"> 0 777 777 777</td>
-    </tr>
-
-    <tr>
-        <td>Нікола</td>
-        <td>Тесла</td>
-        <td> 10 липня 1856</td>
-        <td>Вулиця Степана Бандери в місті Москва</td>
-        <td class="table-number">  0 666 666 666</td>
-    </tr>
-
-    <tr>
-        <td>Іван</td>
-        <td>Алексєєв</td>
-        <td> 9 березня 1985</td>
-        <td>Вулиця Нойза в місті Києві</td>
-        <td class="table-number">  0 555 555 555</td>
-    </tr>
-    </tbody>
-</table>
-
+<img src="images.html" alt="фото розміром 640 на 480 пікселів" class="picture">
+<h3 class="title-folder">Зображення у папці</h3>
+<img src="images.html" alt="фото розміром 640 на 480 пікселів" class="picture">
+<h3 class="title-online">Зображення онлайн</h3>
+<img src="https://place-hold.it/640x480/black" alt="фото розміром 1280 на 1024 пікселів" class="picture">
 </body>
 </html>
