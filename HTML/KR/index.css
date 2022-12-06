@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+#a {
+    background-color: yellow;
+    color: black;
+}
+#b {
+    background-color: green;
+    color: yellow;
+}
+#c {
+    background-color: orangered;
+    color: aqua;
+}
+#d {
+    background-color: aqua;
+    color: black;
+    height: 450px;
+}
+div {
+    width: 320px;
+
+}
+h4 {
+    width: 200px;
+    background-color: magenta;
+    position: relative;
+    top: 290px;
+}
+
+.blok {
+    height: 320px;
+}
+#piz {
+    top: 420px;
+}
